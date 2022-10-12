@@ -11,11 +11,11 @@ const Main = () => {
 
             <div className='flex flex-col-reverse md:flex-row md:justify-around mt-28'>
                 {/* right */}
-                <div className='w-[400px] space-y-7 text-left md:text-center'>
+                <div className='w-[400px] space-y-7 text-left md:text-center text-gray-800'>
                     <h1 className='text-5xl font-semibold'>Welcome to <span className='text-5xl font-bold'>Quizee</span></h1>
                     <p className='text-2xl font-semibold'>Looking a best website for quiz? We are providing best quizes for you that help you to increase your knowledge.</p>
                     <Link to='/home'>
-                        <button className='text-4xl font-semibold bg-yellow-700 py-2 px-5 rounded-3xl mt-5'>Start</button>
+                        <button className='text-4xl font-semibold bg-yellow-700 py-3  px-5 rounded-2xl mt-5'>Start</button>
                     </Link>
 
                 </div>

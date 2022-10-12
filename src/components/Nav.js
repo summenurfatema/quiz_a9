@@ -1,14 +1,9 @@
 
 import { Link } from 'react-router-dom';
 
-
-
-
-
-
 const Nav = () => {
     return (
-        <div className='container mx-auto flex justify-evenly items-center border-b-2 md:px-10 py-7 border-blue-600'>
+        <div className='container mx-auto flex justify-evenly items-center border-b-2 md:px-10 py-7 shadow-md shadow-blue-200'>
             <div>
                 <h1 className='text-5xl font-bold'>Quizee</h1>
             </div>
