@@ -28,11 +28,11 @@ const Rechart = () => {
     return (
         <div>
             <Nav></Nav>
-            <div className='container mx-auto flex flex-col items-center'>
+            <div className='container mx-auto flex flex-col items-center w-1/2 md:full'>
 
                 <h1 className='text-4xl font-semibold text-gray-800 mt-5 border-b-2 border-gray-300 pb-5'>Chart of Total Quiz</h1>
                 <LineChart className='w-1/2 md:w-full mt-10'
-                    width={600}
+                    width={400}
                     height={400}
                     data={data}>
                     <CartesianGrid strokeDasharray="3 3" />

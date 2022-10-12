@@ -18,7 +18,7 @@ const Home = () => {
                     <h1 className=' w-1/2 text-4xl font-bold text-red-700  border-b-2 border-red-200 pb-6'>Select Your Favourite Category</h1>
 
                 </div>
-                <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 my-10 p-10 items-center'>
+                <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 w-[400px] md:w-[800px]  gap-5 my-10 p-10 items-center'>
                     {
                         cards.data.map(card => <Cards
                             key={card.id}
