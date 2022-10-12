@@ -18,7 +18,7 @@ const Option = ({ optn }) => {
         <div className='container mx-auto bg-gray-300 border-4 border-gray-300 space-y-4 my-4 py-4'>
 
             <div className='flex justify-center items-center'>
-                <p>i</p>
+
                 <h1 className='text-3xl font-semibold'>{optn.question.slice(3, -4)}</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 float-right  ml-5">
                     <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" />
