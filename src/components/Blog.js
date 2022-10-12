@@ -48,21 +48,14 @@ const Blog = () => {
             <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
 
                 <div class="space-y-4">
-                    <Item title="The quick, brown fox jumps over a lazy dog?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                    <Item title="What is the purpose of react router?">
+                        React Router is a standerd library for routing in React ,which contains different roots/components and allow to changing the webpage's URL and keep the UI in sync with URL.
                     </Item>
-                    <Item title="The first mate and his Skipper too will do?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                    <Item title="How does context API works?">
+                        Context API is like moving 'props'(properties) from grandparent to child to parent and so on.It's alternative name is 'Prop driling'. By using it we can share data from one component to other components very easily.
                     </Item>
-                    <Item title="Is the Space Pope reptilian!?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
-                    </Item>
-                    <Item title="How much money you got on you?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                    <Item title="What is useRef?">
+                        useRef is like a box that can hold multable value in its current properties.useRef creates a plain JavaScript object.The returned object will presist for the full lifetime of the component.
                     </Item>
                 </div>
 
