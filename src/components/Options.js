@@ -9,9 +9,9 @@ const Options = () => {
         <div className='container mx-auto'>
             <Nav></Nav>
             {
-                quizes.data.questions.map(optn => <Option
-                    key={optn.id}
-                    optn={optn}
+                quizes.data.questions.map(options => <Option
+                    key={options.id}
+                    options={options}
                 ></Option>)
             }
 
