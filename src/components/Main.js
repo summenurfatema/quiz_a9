@@ -9,7 +9,7 @@ const Main = () => {
             <Outlet></Outlet>
 
 
-            <div className='flex flex-col-reverse md:flex-row md:justify-around mt-28'>
+            <div className='flex flex-col-reverse md:flex-row md:justify-around mt-28 mb-10'>
                 {/* right */}
                 <div className='w-[400px] space-y-7 text-left md:text-center text-gray-800'>
                     <h1 className='text-5xl font-semibold'>Welcome to <span className='text-5xl font-bold'>Quizee</span></h1>

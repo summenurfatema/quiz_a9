@@ -1,10 +1,14 @@
 import React from 'react';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
 
+
+
 const Option = ({ optn }) => {
+
 
     function check(e) {
 
@@ -22,6 +26,7 @@ const Option = ({ optn }) => {
     <ToastContainer />
     const notify = () => toast(optn.correctAnswer)
     return (
+
         <div className='container mx-auto bg-gray-300 border-4 border-gray-300 space-y-4 my-4 py-4'>
 
             <div className='flex justify-center items-center'>
